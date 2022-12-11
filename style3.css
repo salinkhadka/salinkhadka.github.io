@@ -1,0 +1,84 @@
+body{
+	background: lightgray;
+}
+
+
+
+#blue-ball{
+	height: 24px;
+	width: 24px;
+	border-radius: 50%;
+	background: rgb(25, 13, 43);
+	margin: 7px;
+
+}
+#container
+{
+	width: 100%
+	height:auto;
+	/*background:lightgray;*/
+	margin: 20px;
+	display:flex;
+	align-items: center;
+
+
+
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top:10px;
+}
+
+.text-name
+{
+	margin: 7px;
+
+}
+.text-web
+{
+	margin: 7px;
+
+}
+.projects
+{
+
+	margin: 7px;
+
+
+}
+#image-container{
+	margin:5%;
+	display: flex;
+	justify-content:space-between;
+	width:90vw;
+	height: auto;
+	align-items: center;
+}
+img
+{
+	width: 45vw;
+	border-radius:50%;
+	object-fit: cover;
+	/*border: double;*/
+	border-width: 10px;
+	
+}
+.class
+{
+ text-align: center;
+
+
+}
+#conclusion-container
+{
+	display: flex;
+	justify-content: space-around;
+
+
+}
+p{
+	font-size: 1.15em;
+}
